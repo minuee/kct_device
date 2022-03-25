@@ -1,0 +1,157 @@
+import { StyleSheet } from "react-native";
+
+import Fonts from "../../../model/lib/Utils/Fonts";
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: "white",
+    },
+    productInfoContainer: {
+        marginTop: 21.8,
+        borderBottomColor: "#191919",
+        borderBottomWidth: 2,
+        paddingBottom: 34.6,
+    },
+    title: {
+        fontFamily: Fonts.AppleB,
+        fontSize: 18,
+        letterSpacing: -0.9,
+        color: "#000000",
+    },
+    productInfoBox: {
+        flexDirection: "row",
+        borderRadius: 5,
+        backgroundColor: "#f5f5f5",
+        paddingVertical: 10,
+        paddingLeft: 15,
+        marginTop: 10,
+        alignItems: "center",
+    },
+    productImg: {
+        width: 60,
+        height: 60,
+        borderRadius: 30,
+        marginRight: 10,
+    },
+    productTitle: {
+        fontFamily: Fonts.AppleB,
+        letterSpacing: -0.35,
+        color: "#222222",
+    },
+    productOption: {
+        marginTop: 5,
+        fontFamily: Fonts.AppleR,
+        fontSize: 12,
+        letterSpacing: -0.3,
+        color: "#777777",
+    },
+    expDates: {
+        marginTop: 2.5,
+        fontFamily: Fonts.AppleR,
+        fontSize: 12,
+        letterSpacing: -0.3,
+        color: "#777777",
+    },
+    submitBox: {
+        height: 50,
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "#000000",
+        marginBottom: 20,
+        marginHorizontal: 20,
+        borderRadius: 5,
+    },
+    submit: {
+        fontFamily: Fonts.AppleR,
+        fontSize: 20,
+        color: "#f5f5f5",
+    },
+    reBidSubmitBox: {
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-between",
+        marginBottom: 25,
+        marginHorizontal: 20,
+    },
+    reBidSubmitBtn: {
+        height: 50,
+        width: "48%",
+        borderRadius: 5,
+        backgroundColor: "#ffffff",
+        borderWidth: 1,
+        borderColor: "#dddddd",
+        alignItems: "center",
+        justifyContent: "center",
+    },
+    reBidSubmitTxt: {
+        fontFamily: Fonts.AppleR,
+        fontSize: 20,
+        letterSpacing: -1,
+        color: "#000000",
+    },
+    voucherBid: {
+        fontFamily: Fonts.AppleR,
+        fontSize: 12,
+        letterSpacing: -0.6,
+        color: "#969696",
+    },
+    bidPriceBox: {
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-between",
+        marginTop: 10,
+        height: 40,
+        borderBottomColor: "#999999",
+        borderBottomWidth: 0.5,
+    },
+    bidPrice: {
+        fontFamily: Fonts.AppleB,
+        fontSize: 16,
+        letterSpacing: -0.8,
+        color: "#000000",
+    },
+    won: {
+        fontSize: 13,
+        color: "#595959",
+    },
+    voucherBidInfoBox: {
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-between",
+        marginTop: 27.2,
+    },
+    bidInfoBox: {
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-between",
+        borderBottomWidth: 0.5,
+        borderBottomColor: "#d5d5d5",
+        height: 45,
+    },
+    boxStyle: {
+        height: 40,
+        marginTop: 20,
+        justifyContent: "center",
+        borderBottomColor: "#999999",
+        borderBottomWidth: 0.5,
+        width: "90%",
+    },
+    textInput: {
+        fontFamily: Fonts.AppleM,
+        fontSize: 16,
+        letterSpacing: -0.8,
+        color: "#000000",
+    },
+    wonBox: {
+        borderBottomColor: "#999999",
+        borderBottomWidth: 0.5,
+        width: "10%",
+        alignItems: "flex-end",
+        justifyContent: "center",
+        height: 40,
+        marginTop: 20,
+    },
+});
+
+export default styles;

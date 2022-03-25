@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">tplus 마켓</string>
+
+    <string name="kakao_app_key">2ab0de254783f5b8dbcd9f3711be01ae</string>
+    <string name="kakao_scheme">kakao2ab0de254783f5b8dbcd9f3711be01ae</string>
+
+    <string name="naver_client_id">CPPuCXea_g9Zg92ZvnSk</string>
+    <string name="naver_client_secret">FwHI_ASRsE</string>
+
+    <string name="facebook_app_id">Facebook App ID</string>
+    <string name="facebook_client_token">Facebook Client ID</string>
+</resources>

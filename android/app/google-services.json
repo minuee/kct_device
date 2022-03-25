@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "664958004841",
+    "project_id": "kctmarket-3189c",
+    "storage_bucket": "kctmarket-3189c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664958004841:android:2e53a016c7f58d0635fcf8",
+        "android_client_info": {
+          "package_name": "com.kct.tplusmarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664958004841-6dgses8asqnd5gqfr6hihfvqddvhsurh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7q9TTy_0qMgN7bzrLpr_fgpRN-kmQy5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664958004841-6dgses8asqnd5gqfr6hihfvqddvhsurh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "664958004841-djsed3h1ord6aijqghfr5bne9kjo9193.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kct.tplusmarket"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
